@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec1fbbc1717b5d4487dec7b5b2e5e64, type: 3}
+  m_Name: DialogueTest
+  m_EditorClassIdentifier: 
+  NodeLinkDatas:
+  - BaseNodeGuid: b4768381-a57e-43b0-a1a2-9017b4415129
+    TargetNodeGuid: 755ea6d5-3432-4724-bf9b-41050906666a
+  - BaseNodeGuid: 755ea6d5-3432-4724-bf9b-41050906666a
+    TargetNodeGuid: 3b08086f-be22-4a78-bcf2-bb59930a3725
+  - BaseNodeGuid: 755ea6d5-3432-4724-bf9b-41050906666a
+    TargetNodeGuid: ceda8e93-ff1a-4f5d-9490-19cfe923376f
+  - BaseNodeGuid: 755ea6d5-3432-4724-bf9b-41050906666a
+    TargetNodeGuid: 27898f0f-1fc4-4e6f-ade9-fa6fa6fd591b
+  - BaseNodeGuid: 27898f0f-1fc4-4e6f-ade9-fa6fa6fd591b
+    TargetNodeGuid: 537f4b75-f475-46cb-b5ce-c69c82fa27b4
+  - BaseNodeGuid: ceda8e93-ff1a-4f5d-9490-19cfe923376f
+    TargetNodeGuid: 2b5a8654-9922-4aeb-866d-a7f79c90997d
+  DialogueNodeDatas:
+  - NodeGuid: 27898f0f-1fc4-4e6f-ade9-fa6fa6fd591b
+    Position: {x: 920, y: 375}
+    DialogueNodePorts:
+    - InputGuid: 537f4b75-f475-46cb-b5ce-c69c82fa27b4
+      OutputGuid: 27898f0f-1fc4-4e6f-ade9-fa6fa6fd591b
+      TextLanguages:
+      - LanguageType: 0
+        LanguageGenericType: No
+      - LanguageType: 1
+        LanguageGenericType: Continue
+      - LanguageType: 2
+        LanguageGenericType: Continue
+      - LanguageType: 3
+        LanguageGenericType: Continue
+    TextType:
+    - LanguageType: 0
+      LanguageGenericType: Is it that important?
+    - LanguageType: 1
+      LanguageGenericType: 
+    - LanguageType: 2
+      LanguageGenericType: 
+    - LanguageType: 3
+      LanguageGenericType: 
+    Sprite: {fileID: 0}
+    DialogueFaseImageType: 0
+    Name: Niko
+    AudioClips: []
+  - NodeGuid: 755ea6d5-3432-4724-bf9b-41050906666a
+    Position: {x: 481, y: 142}
+    DialogueNodePorts:
+    - InputGuid: 3b08086f-be22-4a78-bcf2-bb59930a3725
+      OutputGuid: 755ea6d5-3432-4724-bf9b-41050906666a
+      TextLanguages:
+      - LanguageType: 0
+        LanguageGenericType: I don't want apply task
+      - LanguageType: 1
+        LanguageGenericType: Continue
+      - LanguageType: 2
+        LanguageGenericType: Continue
+      - LanguageType: 3
+        LanguageGenericType: Continue
+    - InputGuid: ceda8e93-ff1a-4f5d-9490-19cfe923376f
+      OutputGuid: 755ea6d5-3432-4724-bf9b-41050906666a
+      TextLanguages:
+      - LanguageType: 0
+        LanguageGenericType: I do want your quest
+      - LanguageType: 1
+        LanguageGenericType: Continue
+      - LanguageType: 2
+        LanguageGenericType: Continue
+      - LanguageType: 3
+        LanguageGenericType: Continue
+    - InputGuid: 27898f0f-1fc4-4e6f-ade9-fa6fa6fd591b
+      OutputGuid: 755ea6d5-3432-4724-bf9b-41050906666a
+      TextLanguages:
+      - LanguageType: 0
+        LanguageGenericType: Who are you?
+      - LanguageType: 1
+        LanguageGenericType: Continue
+      - LanguageType: 2
+        LanguageGenericType: Continue
+      - LanguageType: 3
+        LanguageGenericType: Continue
+    TextType:
+    - LanguageType: 0
+      LanguageGenericType: Hello my friend. Do you want execute this quest?
+    - LanguageType: 1
+      LanguageGenericType: 
+    - LanguageType: 2
+      LanguageGenericType: 
+    - LanguageType: 3
+      LanguageGenericType: 
+    Sprite: {fileID: 0}
+    DialogueFaseImageType: 0
+    Name: Niko
+    AudioClips: []
+  EndNodeDatas:
+  - NodeGuid: 537f4b75-f475-46cb-b5ce-c69c82fa27b4
+    Position: {x: 1223, y: 391}
+    EndNodeType: 1
+  - NodeGuid: 2b5a8654-9922-4aeb-866d-a7f79c90997d
+    Position: {x: 1223, y: 197}
+    EndNodeType: 0
+  - NodeGuid: 3b08086f-be22-4a78-bcf2-bb59930a3725
+    Position: {x: 920, y: 77}
+    EndNodeType: 0
+  EventNodeDatas:
+  - NodeGuid: ceda8e93-ff1a-4f5d-9490-19cfe923376f
+    Position: {x: 920, y: 197}
+    EventSO: {fileID: 11400000, guid: 5f7fa4b82cc5cb647bef932dd6fa2014, type: 2}
+  StartNodeDatas:
+  - NodeGuid: b4768381-a57e-43b0-a1a2-9017b4415129
+    Position: {x: 318, y: 234}
