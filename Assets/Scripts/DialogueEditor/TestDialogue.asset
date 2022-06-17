@@ -15,12 +15,16 @@ MonoBehaviour:
   NodeLinkDatas:
   - BaseNodeGuid: caacafbc-f731-4f30-b334-c81691d96c66
     TargetNodeGuid: 25d2ba1c-914e-4229-a641-5cbc6b6ae317
-  - BaseNodeGuid: 3e622919-6a3a-4a79-b28b-7ab22866f5a3
-    TargetNodeGuid: 34d0a7d0-a509-41f1-86d5-840f8c27d9b3
   - BaseNodeGuid: be64f296-8bb6-46b4-8a88-e105a3271253
     TargetNodeGuid: 80e034e6-bbc7-44b4-a87a-9d2262139a25
   - BaseNodeGuid: 959c79d5-753a-4821-92b8-afef431e0dcd
     TargetNodeGuid: 01d0ac01-77f5-4452-b9ca-b336a5cec33f
+  - BaseNodeGuid: 3e622919-6a3a-4a79-b28b-7ab22866f5a3
+    TargetNodeGuid: 34d0a7d0-a509-41f1-86d5-840f8c27d9b3
+  - BaseNodeGuid: 1666aae4-6bf9-4b75-8cc4-645a036472a6
+    TargetNodeGuid: 821d6af9-6137-426d-bbfe-dc4b449df67d
+  - BaseNodeGuid: a41268b6-be72-4d52-88c5-cd673679a338
+    TargetNodeGuid: be64f296-8bb6-46b4-8a88-e105a3271253
   - BaseNodeGuid: b18178cf-3edf-4cff-bed1-2249049a808b
     TargetNodeGuid: 959c79d5-753a-4821-92b8-afef431e0dcd
   - BaseNodeGuid: b18178cf-3edf-4cff-bed1-2249049a808b
@@ -29,16 +33,12 @@ MonoBehaviour:
     TargetNodeGuid: 3e622919-6a3a-4a79-b28b-7ab22866f5a3
   - BaseNodeGuid: 75f7ef40-0af4-4d28-8c57-71fd7fcf0ef7
     TargetNodeGuid: 143cb474-dae7-4acb-892d-ced548d3e8da
-  - BaseNodeGuid: 1666aae4-6bf9-4b75-8cc4-645a036472a6
-    TargetNodeGuid: 821d6af9-6137-426d-bbfe-dc4b449df67d
   - BaseNodeGuid: 26d4ed79-c2f3-4483-b09a-21ea428e1e50
     TargetNodeGuid: da5f2559-4138-4a59-b5b7-030c58b8d835
   - BaseNodeGuid: c747a6a0-a760-430b-acdd-0fac93f1e593
     TargetNodeGuid: 1666aae4-6bf9-4b75-8cc4-645a036472a6
   - BaseNodeGuid: c747a6a0-a760-430b-acdd-0fac93f1e593
     TargetNodeGuid: a41268b6-be72-4d52-88c5-cd673679a338
-  - BaseNodeGuid: a41268b6-be72-4d52-88c5-cd673679a338
-    TargetNodeGuid: be64f296-8bb6-46b4-8a88-e105a3271253
   - BaseNodeGuid: 25d2ba1c-914e-4229-a641-5cbc6b6ae317
     TargetNodeGuid: c747a6a0-a760-430b-acdd-0fac93f1e593
   - BaseNodeGuid: 25d2ba1c-914e-4229-a641-5cbc6b6ae317
@@ -143,34 +143,6 @@ MonoBehaviour:
     DialogueFaseImageType: 0
     Name: Niko
     AudioClips: []
-  - NodeGuid: 2505340d-004f-4925-a716-0bde7cfe6db4
-    Position: {x: 599, y: 243}
-    DialogueNodePorts:
-    - InputGuid: 3e622919-6a3a-4a79-b28b-7ab22866f5a3
-      OutputGuid: 2505340d-004f-4925-a716-0bde7cfe6db4
-      TextLanguages:
-      - LanguageType: 0
-        LanguageGenericType: Open shop
-      - LanguageType: 1
-        LanguageGenericType: Continue
-      - LanguageType: 2
-        LanguageGenericType: Continue
-      - LanguageType: 3
-        LanguageGenericType: Continue
-    TextType:
-    - LanguageType: 0
-      LanguageGenericType: "The choice is modest, \nbut I think you will find \nwhat
-        you need"
-    - LanguageType: 1
-      LanguageGenericType: 
-    - LanguageType: 2
-      LanguageGenericType: 
-    - LanguageType: 3
-      LanguageGenericType: 
-    Sprite: {fileID: 0}
-    DialogueFaseImageType: 0
-    Name: Niko
-    AudioClips: []
   - NodeGuid: 75f7ef40-0af4-4d28-8c57-71fd7fcf0ef7
     Position: {x: 599, y: 488}
     DialogueNodePorts:
@@ -179,34 +151,6 @@ MonoBehaviour:
       TextLanguages:
       - LanguageType: 0
         LanguageGenericType: Goodbye
-      - LanguageType: 1
-        LanguageGenericType: Continue
-      - LanguageType: 2
-        LanguageGenericType: Continue
-      - LanguageType: 3
-        LanguageGenericType: Continue
-    TextType:
-    - LanguageType: 0
-      LanguageGenericType: "Of course, but next time come \nwhen you have at least
-        \nsomething in your head \nbesides adventuring."
-    - LanguageType: 1
-      LanguageGenericType: 
-    - LanguageType: 2
-      LanguageGenericType: 
-    - LanguageType: 3
-      LanguageGenericType: 
-    Sprite: {fileID: 0}
-    DialogueFaseImageType: 0
-    Name: Niko
-    AudioClips: []
-  - NodeGuid: 26d4ed79-c2f3-4483-b09a-21ea428e1e50
-    Position: {x: 997, y: 68}
-    DialogueNodePorts:
-    - InputGuid: da5f2559-4138-4a59-b5b7-030c58b8d835
-      OutputGuid: 26d4ed79-c2f3-4483-b09a-21ea428e1e50
-      TextLanguages:
-      - LanguageType: 0
-        LanguageGenericType: Stop dialogue
       - LanguageType: 1
         LanguageGenericType: Continue
       - LanguageType: 2
@@ -327,10 +271,63 @@ MonoBehaviour:
     DialogueFaseImageType: 0
     Name: Niko
     AudioClips: []
+  - NodeGuid: 26d4ed79-c2f3-4483-b09a-21ea428e1e50
+    Position: {x: 1159, y: 51}
+    DialogueNodePorts:
+    - InputGuid: da5f2559-4138-4a59-b5b7-030c58b8d835
+      OutputGuid: 26d4ed79-c2f3-4483-b09a-21ea428e1e50
+      TextLanguages:
+      - LanguageType: 0
+        LanguageGenericType: Stop dialogue
+      - LanguageType: 1
+        LanguageGenericType: Continue
+      - LanguageType: 2
+        LanguageGenericType: Continue
+      - LanguageType: 3
+        LanguageGenericType: Continue
+    TextType:
+    - LanguageType: 0
+      LanguageGenericType: "Of course, but next time come \nwhen you have at least
+        \nsomething in your head \nbesides adventuring."
+    - LanguageType: 1
+      LanguageGenericType: 
+    - LanguageType: 2
+      LanguageGenericType: 
+    - LanguageType: 3
+      LanguageGenericType: 
+    Sprite: {fileID: 0}
+    DialogueFaseImageType: 0
+    Name: Niko
+    AudioClips: []
+  - NodeGuid: 2505340d-004f-4925-a716-0bde7cfe6db4
+    Position: {x: 590, y: 243}
+    DialogueNodePorts:
+    - InputGuid: 3e622919-6a3a-4a79-b28b-7ab22866f5a3
+      OutputGuid: 2505340d-004f-4925-a716-0bde7cfe6db4
+      TextLanguages:
+      - LanguageType: 0
+        LanguageGenericType: Open shop
+      - LanguageType: 1
+        LanguageGenericType: Continue
+      - LanguageType: 2
+        LanguageGenericType: Continue
+      - LanguageType: 3
+        LanguageGenericType: Continue
+    TextType:
+    - LanguageType: 0
+      LanguageGenericType: "The choice is modest, \nbut I think you will find \nwhat
+        you need"
+    - LanguageType: 1
+      LanguageGenericType: 
+    - LanguageType: 2
+      LanguageGenericType: 
+    - LanguageType: 3
+      LanguageGenericType: 
+    Sprite: {fileID: 0}
+    DialogueFaseImageType: 0
+    Name: Niko
+    AudioClips: []
   EndNodeDatas:
-  - NodeGuid: 34d0a7d0-a509-41f1-86d5-840f8c27d9b3
-    Position: {x: 1248, y: 298}
-    EndNodeType: 3
   - NodeGuid: 821d6af9-6137-426d-bbfe-dc4b449df67d
     Position: {x: 1185, y: -525}
     EndNodeType: 3
@@ -346,16 +343,19 @@ MonoBehaviour:
   - NodeGuid: 143cb474-dae7-4acb-892d-ced548d3e8da
     Position: {x: 1014, y: 508}
     EndNodeType: 0
+  - NodeGuid: 34d0a7d0-a509-41f1-86d5-840f8c27d9b3
+    Position: {x: 1252, y: 361}
+    EndNodeType: 0
   EventNodeDatas:
   - NodeGuid: be64f296-8bb6-46b4-8a88-e105a3271253
     Position: {x: 1159, y: -249}
     EventSO: {fileID: 0}
-  - NodeGuid: 959c79d5-753a-4821-92b8-afef431e0dcd
-    Position: {x: 1185, y: -62}
-    EventSO: {fileID: 11400000, guid: 5f7fa4b82cc5cb647bef932dd6fa2014, type: 2}
   - NodeGuid: 3e622919-6a3a-4a79-b28b-7ab22866f5a3
     Position: {x: 997, y: 361}
     EventSO: {fileID: 0}
+  - NodeGuid: 959c79d5-753a-4821-92b8-afef431e0dcd
+    Position: {x: 1160, y: -57}
+    EventSO: {fileID: 11400000, guid: 5f7fa4b82cc5cb647bef932dd6fa2014, type: 2}
   StartNodeDatas:
   - NodeGuid: caacafbc-f731-4f30-b334-c81691d96c66
-    Position: {x: -531, y: 260}
+    Position: {x: -567, y: 243}
