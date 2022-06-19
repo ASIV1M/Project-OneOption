@@ -16,13 +16,4 @@ public abstract class QuestView : MonoBehaviour
     public UnityAction<QuestView> OpenPanelView;
 
     public abstract void Render(Quest quest);
-    
-    public void OpenPanel()
-    {
-        if (this.gameObject.activeSelf)
-        {
-            OpenPanelView?.Invoke(this);
-            this.gameObject.SetActive(true);
-        }
-    }
 }

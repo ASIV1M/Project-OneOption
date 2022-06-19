@@ -8,8 +8,8 @@ public class SimpleQuestView: QuestView
 {
     public UnityAction<Quest, SimpleQuestView> CompliteQuest;
 
-    public Quest Quest;
 
+    public Quest GetQuest => Quest;
     private void Update()
     {
         RefrashQuest();
@@ -20,11 +20,6 @@ public class SimpleQuestView: QuestView
         for (int i = 0; i < Quest.RequiredAmount.Length; i++)
         {
             CurrentAmount.text = Quest.CurrentAmount[i].ToString();
-
-            if(Quest.IsComplite)
-            {
-                //QuestManager.Instance.RemoveQuest(_quest);
-            }
         }
     }
 
