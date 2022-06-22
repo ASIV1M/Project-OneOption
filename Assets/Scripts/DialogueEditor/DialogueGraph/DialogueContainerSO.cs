@@ -91,6 +91,7 @@ public class LanguageGeneric<T>
 [System.Serializable]
 public class DialogueNodePort
 {
+    public string Portguid;
     public string InputGuid;
     public string OutputGuid;
     public Port Port;
