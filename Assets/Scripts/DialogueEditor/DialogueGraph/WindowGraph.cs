@@ -33,6 +33,7 @@ public class WindowGraph : EditorWindow
             window.currentDialogueContainer = item as DialogueContainerSO;
             window.minSize = new Vector2(500, 250);
             window.Load();
+           
         }
 
         return false;
@@ -87,12 +88,13 @@ public class WindowGraph : EditorWindow
         {
             _toolbarMenu.menu.AppendAction(language.ToString(), new Action<DropdownMenuAction>(x => Language(language, _toolbarMenu)));
         }
-
+        toolBar.Add(_toolbarMenu);
 
         nameOfDC = new Label("");
         toolBar.Add(nameOfDC);
+        
 
-        nameOfDC.AddToClassList("nameOfDialogueContainer");
+        nameOfDC.AddToClassList("nameOfDC");
 
         rootVisualElement.Add(toolBar);
 
