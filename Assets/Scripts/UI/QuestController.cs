@@ -83,7 +83,7 @@ public class QuestController: MainPanel
     {
         foreach (SimpleQuestView simple in _simpleQuestViews)
         {
-            if(quest == simple.Quest)
+            if(quest == simple.GetQuest)
                 Destroy(simple.gameObject);
         }
     }

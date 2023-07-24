@@ -11,4 +11,6 @@ public class Item : ScriptableObject
     public string Name => NameItem;
     public string Description => DescriptionItem;
     public int Price => Price;
+
+    public GameObject _prefabItem;
 }

@@ -6,6 +6,7 @@ public class Character : MonoBehaviour, IInteraction
 {
     [SerializeField] private string _nameCharacter;
 
+    public string NameCharacter => _nameCharacter;
     public void Interaction()
     {
         Debug.Log("I interaction for you");

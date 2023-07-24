@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560c0f8537a2d1845862d98a0de1deaf, type: 3}
   m_Name: StartSword
   m_EditorClassIdentifier: 
-  Name: StartSword
-  Description: dgfh;ldkbd;fblmds;bfsmb;'dsmbsmb;fslmbd;'slbmsd;lbmb;'sdmbf
+  NameItem: 
+  DescriptionItem: 
+  PriceItem: 0
+  IconItem: {fileID: 0}
+  _prefabItem: {fileID: 100000, guid: 33d713fc22667954ba9af3f9422003f2, type: 3}
   Damage: 50
-  Price: 0
   Range: 30
   TypeWeapon: 0
   IconWeapon: {fileID: 0}

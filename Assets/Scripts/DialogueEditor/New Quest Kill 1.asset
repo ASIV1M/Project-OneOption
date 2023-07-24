@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a364996b0201abf42841027ec0b18f73, type: 3}
+  m_Name: New Quest Kill 1
+  m_EditorClassIdentifier: 
+  NameQuest: Join
+  DiscriptionQuest: Unirt test quest
+  Reward:
+    ItemRewards:
+    - {fileID: 11400000, guid: 8a9d6637c5bfa9c45ba9603ae7cd4ac9, type: 2}
+    ExperianceReward: 12
+    coinReward: 125
+  Goals:
+  - profileEnemy: {fileID: 11400000, guid: 9638a49ed7728164482a9ca0c9bae9ed, type: 2}
+    RequiredAmount: 2
